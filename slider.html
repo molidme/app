@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Slideshow app</title>
+  <!-- include css style-->
+  <link rel="stylesheet" href="css/glide.css">
+</head>
+
+<body>
+  <div class="glide">
+    <!-- NB: For more info | Goto https://glidejs.com/ -->
+    <!-- Slides -->
+    <div data-glide-el="track" class="glide__track">
+      <ul class="glide__slides">
+        <li class="glide__slide">
+          <img src="assets/img6.jpg" alt="slide 1">
+        </li>
+        <li class="glide__slide">
+          <img src="assets/img8.jpg" alt="slide 1">
+        </li>
+        <li class="glide__slide">
+          <img src="assets/slide4.jpeg" alt="slide 2">
+        </li>
+        <li class="glide__slide">
+          <img src="assets/slide3.jpg" alt="slide 3">
+        </li>
+      </ul>
+    </div>
+    <!-- Slide Controls -->
+    <!-- NOTE: you can use ur own css to style  the controls-->
+    <div class="glide__arrows" data-glide-el="controls">
+      <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+      <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+    </div>
+  </div>
+  <!-- inlcude js dependencies-->
+  <script src="js/glide.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
