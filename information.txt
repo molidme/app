@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Personal Information</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+	<header>
+	<nav>
+		<ul class="nav-link" >
+	<a href="../assignment.html"> Home</a>
+	<a href="information.html">information</a>
+	<a href="product.html">Product </a>
+	<a href="contact.html">Contact Us</a>
+
+</ul>
+	</nav>
+	<div class="cta" >
+		<a href="#"> about</a>
+		<a  href="#">Search</a>	
+	</div>
+</header>
+
+<p class="mid-des">Name</p>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<title>Product information</title>
+</head>
+<body>
+<header>
+	<nav>
+		<ul class="nav-link" >
+	<a href="../assignment.html"> Home</a>
+	<a href="information.html">information</a>
+	<a href="product.html">Product </a>
+	<a href="contact.html">Contact Us</a>
+
+</ul>
+	</nav>
+	<div class="cta" >
+		<a href="#"> about</a>
+		<a  href="#">Search</a>	
+	</div>
+</header>
+
+</body>
+</html>
